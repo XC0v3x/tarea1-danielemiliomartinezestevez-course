@@ -1,0 +1,16 @@
+title: Tarea1-DanielEmilioMartinezEstevez
+description: Tarea 1 del tercer parcial programacion 3 UCENM
+template:
+  repo: tarea1-danielemiliomartinezestevez-template
+  name: tarea1-danielemiliomartinezestevez
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
